@@ -278,6 +278,8 @@ margin-block-end: 20px;
   .list-img {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    margin-block-start: 10px;
   }
 
   .image-sunset {
@@ -302,11 +304,6 @@ margin-block-end: 20px;
     grid-column-end: 4;
   }
 
-  .list-img {
-    gap: 20px;
-    margin-block-start: 10px;
-  }
-  
 }
 
 @media(width >=1024px) {
