@@ -17,9 +17,9 @@
 .header {
   display: grid;
   align-items: start;
-  min-block-size: 100vh;
-  padding: 10px;
+  min-block-size: 668px;
   height: 100vh;
+  padding: 10px;
   grid-template-rows: 1fr min-content 1fr;
  }
 
@@ -194,7 +194,7 @@ margin-block-end: 20px;
 }
 
 .link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--hover_link);
 }
 
 .link:focus-visible {
@@ -222,7 +222,8 @@ margin-block-end: 20px;
   align-content: space-evenly;
   justify-content: center;
   padding: 10px;
-  min-block-size: 100vh;
+  min-block-size: 668px;
+  height: 100vh;
 }
 
 .shadow-decor-footer {
