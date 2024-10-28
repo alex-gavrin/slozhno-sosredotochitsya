@@ -1,0 +1,65 @@
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+
+.page.theme_light {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+
+
+
+  --background_image: url("../images/cover-image-light.png");
+  --menu_list: var(--grey);
+  --menu_list_decor: var(--pink);
+  --main_text_color: var(--grey);
+  --focus_text_color: var(--cotton);
+  --title_text_color: var(--grey);
+  --subtitle_text_color: var(--grey);
+  --accent_color: var(--purple_pink);
+  --frame_color: var(--grey);
+  --subtitle_text_color: var(--grey);
+  --display_rec: none;
+  --hover_link: var(--grey);
+  --hover_button: rgba(50, 49, 45, 0.4);
+  --focus_link: var(--grey);
+  --shadow_color: var(--purple_pink);
+}
+
+@media (width >=1024px) {
+  .page.theme_light {
+    --shadow_color: var(--pink);
+  }
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background_image: url("../images/cover-image-light.png");
+    --menu_list: var(--grey);
+    --menu_list_decor: var(--pink);
+    --main_text_color: var(--grey);
+    --focus_text_color: var(--cotton);
+    --title_text_color: var(--grey);
+    --subtitle_text_color: var(--grey);
+    --accent_color: var(--purple_pink);
+    --frame_color: var(--grey);
+    --subtitle_text_color: var(--grey);
+    --display_rec: none;
+    --hover_link: var(--grey);
+    --hover_button: rgba(50, 49, 45, 0.4);
+    --focus_link: var(--grey);
+    --shadow_color: var(--purple_pink);
+  }
+}
+
+
+@media (prefers-color-scheme: light) and (width >=1024px) {
+  :root {
+    --shadow_color: var(--pink);
+  }
+}
