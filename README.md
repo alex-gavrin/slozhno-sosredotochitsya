@@ -1,1 +1,0 @@
-https://github.com/alex-gavrin/slozhno-sosredotochitsya.git
