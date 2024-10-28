@@ -6,7 +6,11 @@
   background-image: var(--background_image);
   background-color: var(--background_color);
   background-position: center;
+<<<<<<< HEAD
   background-size: cover;
+=======
+  background-size: auto 100%;
+>>>>>>> cdd11e33cd174b99df3eddfbdc470c9aa972f5f4
   background-attachment: fixed;
   color: var(--main_text_color);
   font-family: var(--page_font_family);
@@ -139,7 +143,11 @@
 .main {
   display: grid;
   padding: 40px 10px;
+<<<<<<< HEAD
   row-gap: 40px;
+=======
+  row-gap: 50px;
+>>>>>>> cdd11e33cd174b99df3eddfbdc470c9aa972f5f4
 }
 
 .section {
@@ -162,7 +170,11 @@ margin-block-end: 20px;
 
 .section-list {
   display: grid;
+<<<<<<< HEAD
   gap: 10px;
+=======
+  gap: 20px;
+>>>>>>> cdd11e33cd174b99df3eddfbdc470c9aa972f5f4
 }
 
 .section-list-item-header {
@@ -183,7 +195,10 @@ margin-block-end: 20px;
   font-style: normal;
   line-height: 130%;
   font-weight: 400;
+<<<<<<< HEAD
   margin-bottom: 10px;
+=======
+>>>>>>> cdd11e33cd174b99df3eddfbdc470c9aa972f5f4
 }
 
 .section-list-item-text-decor {
@@ -256,6 +271,10 @@ margin-block-end: 20px;
     align-self: end;
     justify-self: start;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+<<<<<<< HEAD
+=======
+    
+>>>>>>> cdd11e33cd174b99df3eddfbdc470c9aa972f5f4
   }
 
   .header_subtitle {
@@ -264,7 +283,11 @@ margin-block-end: 20px;
 
   .main {
     margin: 20px 10px;
+<<<<<<< HEAD
     gap: 70px;
+=======
+    gap: 80px;
+>>>>>>> cdd11e33cd174b99df3eddfbdc470c9aa972f5f4
   }
   
   .section-why, .section-how {
@@ -325,6 +348,9 @@ margin-block-end: 20px;
 
   .section-what .section-list {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+<<<<<<< HEAD
     gap: 20px;
+=======
+>>>>>>> cdd11e33cd174b99df3eddfbdc470c9aa972f5f4
   }
 }

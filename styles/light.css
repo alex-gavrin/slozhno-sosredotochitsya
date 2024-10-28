@@ -4,15 +4,21 @@
   переключая тему
 */
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cdd11e33cd174b99df3eddfbdc470c9aa972f5f4
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> cdd11e33cd174b99df3eddfbdc470c9aa972f5f4
   --background_image: url("../images/cover-image-light.png");
   --menu_list: var(--grey);
   --menu_list_decor: var(--pink);
@@ -21,12 +27,17 @@
   --title_text_color: var(--grey);
   --subtitle_text_color: var(--grey);
   --accent_color: var(--purple_pink);
+<<<<<<< HEAD
   --frame_color: var(--grey);
+=======
+  --frame-color: var(--grey);
+>>>>>>> cdd11e33cd174b99df3eddfbdc470c9aa972f5f4
   --subtitle_text_color: var(--grey);
   --display_rec: none;
   --hover_link: var(--grey);
   --hover_button: rgba(50, 49, 45, 0.4);
   --focus_link: var(--grey);
+<<<<<<< HEAD
   --shadow_color: var(--purple_pink);
 }
 
@@ -37,6 +48,10 @@
 }
 
 
+=======
+}
+
+>>>>>>> cdd11e33cd174b99df3eddfbdc470c9aa972f5f4
 @media (prefers-color-scheme: light) {
   :root {
     --background_image: url("../images/cover-image-light.png");
@@ -53,7 +68,10 @@
     --hover_link: var(--grey);
     --hover_button: rgba(50, 49, 45, 0.4);
     --focus_link: var(--grey);
+<<<<<<< HEAD
     --shadow_color: var(--purple_pink);
+=======
+>>>>>>> cdd11e33cd174b99df3eddfbdc470c9aa972f5f4
   }
 }
 
